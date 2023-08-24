@@ -15,7 +15,7 @@ export default function PopularProduct() {
           selections. Discover a world of comfort, design, and value
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14 sm:gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14 sm:gap-10">
           {products.map((product) =>(
             <PopularProductCard key={product.name} {...product}/>
           ))}
